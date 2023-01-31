@@ -1,38 +1,264 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  body-font: "Poppins", sans-serif;
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+.container-50 {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+#Qualification p {
+  color: #756d6b;
+}
+
+#Qualification h4 {
+  color: #000000;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+}
+
+h1 {
+  font-size: 1.8rem;
+}
+
+.logo {
+  color: #e84d2e;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+nav ul li {
+  margin-left: 2em;
+}
+
+nav ul li a {
+  color: #000000;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #e84d2e;
+}
+
+
+.toggle {
+  background-color: rgb(255, 255, 255);
+  width: 40px;
+  height: 40px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+.toggle:hover {
+  color: #e84d2e;
+}
+
+
+/* Hero Section */
+.hero-section {
+  display: flex;
+  justify-content: center;
+  min-height: 92vh;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.hero-section-info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+  line-height: 1.4;
+}
+
+.hero-section-info p {
+  font-size: 1rem;
+  letter-spacing: 2px;
+
+}
+.hero-section-info h2 {
+  font-size: 3rem;
+  letter-spacing: 2px;
+
+}
+.hero-section-info h4 {
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  color: #756d6b;
+}
+.para {
+  color: #7c726f;
+}
+
+.btn {
+  color: #ffffff;
+  text-decoration: none;
+  margin-top: 1rem;
+  background-color: #e84d2e;
+  width: 150px;
+  border: none;
+  padding: 8px 10px;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+.btn:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.socilmedia_icon {
+  margin-top: 8px;
+  width: auto;
+  margin-right: 1em;
+  font-size: 1.5rem;
+  color: #e84d2e;
+
+}
+
+.socilmedia_icon a{
+  color: #e84d2e;
+  padding-right: 1rem;
+}
+
+.hero-section-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+/* About section */
+.height-100vh {
+  height: 100vh;
+}
+
+.about-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-img img {
+  border-radius: 5px;
+  width: 350px;
+}
+
+.about-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Skill section */
+
+.accordion-button:not(.collapsed) {
+    color:#e84d2e;
+    background-color:#fff4f1;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.accordion {
+  --bs-accordion-border-color: #ffb0a9;
+  --bs-accordion-btn-focus-border-color: #fe8686;
+  --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rgb(253 13 13 / 27%);
+  --bs-accordion-btn-active-icon: url(arrow.svg);
+}
+
+
+/* Qualification Section */
+.QualificationShadow {
+  box-shadow: rgba(93, 54, 50, 0.25) 0px 50px 100px -20px, #e84d2e 0px 30px 60px -30px, rgba(64, 19, 10, 0.35) 0px -2px 6px 0px inset;
+}
+
+.text-muted {
+    color: #e84d2e!important;
+}
+
+@media screen and (max-width: 576px) {
+  html {
+    font-size: 80%;
+  }
+  .hero-section {
+    min-height: auto;
+    margin-bottom: 3rem;
+  }
+  
+  .hero-section-info {
+    width: 100%;
+    margin-top: 2rem;
+  }
+
+  .hero-section-img {
+    width: 100%;
+    margin-top: 2rem;
+  }
+
+  .hero-section-img img {
+    width: 300px;
+  }
+  .about-img img {
+    margin-bottom: 2rem;
+    width: 300px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (min-width: 577px) and (max-width: 992px) {
+  .hero-section {
+    min-height: auto;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .hero-section-info {
+    width: 100%;
+    margin-top: 2rem;
+
+  }
+
+  .hero-section-img {
+    width: 100%;
+    margin-top: 2rem;
+
+  }
+  .about-img img {
+    margin-bottom: 2rem;
+    width: 320px;
   }
 }
