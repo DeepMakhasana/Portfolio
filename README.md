@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-[Demo](https://deepmakhasana.netlify.app/).
+[Live Demo](https://deepmakhasana.netlify.app/)
 
 ## Available Scripts
 
