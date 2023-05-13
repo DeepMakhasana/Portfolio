@@ -18,19 +18,19 @@ const PortfolioSection = () => {
                     </div>
                     <div className="carousel-inner">
                         <div className="carousel-item active" data-bs-interval="10000">
-                            <a href="https://reactjs-filter.netlify.app/"  target="_blank" rel="noreferrer"><img src={filter} className="d-block w-100" alt="filter" /></a> 
+                            <a href="https://reactjs-filter.netlify.app/" target="_blank" rel="noreferrer"><img src={filter} className="d-block w-100" alt="filter" /></a>
                             <div className="carousel-caption d-none d-md-block">
                                 <h5>React JS Filter</h5>
                                 <p>Learning about map, filter and components.</p>
-                                <a href="https://reactjs-filter.netlify.app/"  target="_blank" rel="noreferrer"><button className='btn'>Demo</button></a>
+                                <a href="https://reactjs-filter.netlify.app/" target="_blank" rel="noreferrer"><button className='btn'>Demo</button></a>
                             </div>
                         </div>
                         <div className="carousel-item" data-bs-interval="2000">
-                            <a href="https://aiart-427b9.web.app/"  target="_blank" rel="noreferrer"> <img src={aiart} className="d-block w-100" alt="aiart"/></a>
+                            <a href="https://aiart-427b9.web.app/" target="_blank" rel="noreferrer"> <img src={aiart} className="d-block w-100" alt="aiart" /></a>
                             <div className="carousel-caption d-none d-md-block">
                                 <h5>Ai Art using React and Node JS</h5>
                                 <p>Learning about How to upload images and show the images.</p>
-                                 <a href="https://aiart-427b9.web.app/"  target="_blank" rel="noreferrer"><button className='btn'>Demo</button></a>
+                                <a href="https://aiart-427b9.web.app/" target="_blank" rel="noreferrer"><button className='btn'>Demo</button></a>
                             </div>
                         </div>
                         <div className="carousel-item">
