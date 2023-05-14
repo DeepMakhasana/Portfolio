@@ -5,7 +5,7 @@ import { AiOutlineEnvironment } from "react-icons/ai";
 
 const ContactSection = () => {
     return (
-        <div className='container my-5 d-flex align-items-center justify-content-center' id="contact">
+        <div className='container height-100vh my-5 d-flex align-items-center justify-content-center' id="contact">
             <div>
                 <div>
                     <h2 className='text-center'>Contact me</h2>

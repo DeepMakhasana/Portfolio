@@ -19,10 +19,10 @@ const heroSection = () => {
                         Full Stack Developer
                     </h4>
                     <p className='para'>
-                        Intermediate level experience in content writing and Web development with quality work.
+                        Intermediate level experience in Web development with quality work.
                     </p>
                     <a href='#contact' className='btn'>Contact</a>
-                    <div  className="socilmedia_icon">
+                    <div className="socilmedia_icon">
                         <a href="https://www.github.com/deepmakhasana" target="_blank" rel="noreferrer"><AiFillGithub /></a>
                         <a href="https://www.linkedin.com/in/deep-makhasana-769346163" target="_blank" rel="noreferrer"><AiFillLinkedin /></a>
                     </div>

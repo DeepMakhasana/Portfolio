@@ -1,6 +1,8 @@
 import React from 'react'
 
 const FooterSection = () => {
+    const d = new Date();
+    let year = d.getFullYear();
     return (
         <div className="container w-100 d-flex justify-content-center align-items-center">
             <footer className="py-3 my-4">
@@ -12,7 +14,7 @@ const FooterSection = () => {
                     <li className="nav-item"><a href="#portfolio" className="nav-link px-2 text-muted">Portfolio</a></li>
                     <li className="nav-item"><a href="#contact" className="nav-link px-2 text-muted">Contact me</a></li>
                 </ul>
-                <p className="text-center text-muted">&copy; 2022 Deep Makhasana</p>
+                <p className="text-center text-muted">&copy; {year} Deep Makhasana</p>
             </footer>
         </div>
     )

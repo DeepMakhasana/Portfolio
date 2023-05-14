@@ -213,17 +213,41 @@ nav ul li a:hover {
 
 .skill img {
   width: auto;
-  height: 100px;
+  height: 80px;
 }
 
 
 /* Qualification Section */
 .QualificationShadow {
-  box-shadow: rgba(93, 54, 50, 0.25) 0px 50px 100px -20px, #313131 0px 30px 60px -30px, rgba(64, 19, 10, 0.35) 0px -2px 6px 0px inset;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .text-muted {
   color: #e84d2e !important;
+}
+
+
+.projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.portfolio-btn {
+  background-color: #e84d2e;
+  color: #ffff;
+  text-decoration: none;
+  padding: 0.2rem 1.5rem 0.5rem 1.5rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.portfolio-btn:hover {
+  color: #ffff;
+
 }
 
 @media screen and (max-width: 576px) {
@@ -231,9 +255,14 @@ nav ul li a:hover {
     font-size: 80%;
   }
 
+  .navbar-font {
+    font-size: 120%;
+  }
+
   .hero-section {
     min-height: auto;
     margin-bottom: 3rem;
+    flex-direction: column-reverse;
   }
 
   .hero-section-info {
@@ -254,11 +283,17 @@ nav ul li a:hover {
     margin-bottom: 2rem;
     width: 300px;
   }
+
+  .skill img {
+    width: auto;
+    height: 60px;
+  }
 }
 
 @media (min-width: 577px) and (max-width: 992px) {
   .hero-section {
     min-height: auto;
+    flex-direction: column-reverse;
   }
 
   .hero-section-info {
@@ -276,5 +311,10 @@ nav ul li a:hover {
   .about-img img {
     margin-bottom: 2rem;
     width: 320px;
+  }
+
+  .skill img {
+    width: auto;
+    height: 80px;
   }
 }

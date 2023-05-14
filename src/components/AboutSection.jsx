@@ -16,7 +16,7 @@ const AboutSection = () => {
                     </div>
                     <div className='col-sm-12 col-md-6 col-lg-6 col-xl-6 about-info'>
                         <div>
-                            <p>Hello, I am Deep Makhasana and I am Full stack developer. Currently study in GEC, Rajkot in computer Engineering department and completed diploma from GP, Valsad. I enjoy working with Web technology as a Frontend and Backend developer. Last 1.5 years working with HTML, CSS, Javascript, PHP and MySql and currently learning DSA, ReactJS, NodeJS, and MongoDB.</p>
+                            <p>Hello, I am Deep Makhasana and I am Full stack developer. Currently study in GEC, Rajkot in computer Engineering department and completed diploma from GP, Valsad. I enjoy working with Web technology as a Frontend and Backend developer.</p>
                             <a href={download} download className='btn'>Download CV</a>
                         </div>
                     </div>
