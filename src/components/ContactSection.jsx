@@ -5,13 +5,13 @@ import { AiOutlineEnvironment } from "react-icons/ai";
 
 const ContactSection = () => {
     return (
-        <div className='container height-100vh my-5 d-flex align-items-center justify-content-center' id="contact">
+        <div className='container my-5 d-flex align-items-center justify-content-center' id="contact">
             <div>
                 <div>
                     <h2 className='text-center'>Contact me</h2>
                     <p className='text-center'>Get in touch</p>
                 </div>
-                <div className='row'>
+                <div className='row px-4'>
                     <div className='col-12 my-3'>
                         <div className='d-flex align-items-center'>
                             <span className='h3 pe-2' style={{ color: "#e84d2e" }}><AiOutlinePhone /></span>

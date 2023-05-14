@@ -240,7 +240,7 @@ nav ul li a:hover {
   background-color: #e84d2e;
   color: #ffff;
   text-decoration: none;
-  padding: 0.2rem 1.5rem 0.5rem 1.5rem;
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
   border-radius: 5px;
   margin-bottom: 1rem;
 }
@@ -255,8 +255,21 @@ nav ul li a:hover {
     font-size: 80%;
   }
 
+  .container {
+    max-width: 100%;
+  }
+
+  .container-50 {
+    max-width: 85%;
+  }
+
   .navbar-font {
     font-size: 120%;
+  }
+
+  .row>* {
+    padding-right: 0;
+    padding-left: 0;
   }
 
   .hero-section {
@@ -282,6 +295,10 @@ nav ul li a:hover {
   .about-img img {
     margin-bottom: 2rem;
     width: 300px;
+  }
+
+  .about-info {
+    padding: 0 0.8rem;
   }
 
   .skill img {

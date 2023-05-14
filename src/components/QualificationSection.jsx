@@ -3,7 +3,7 @@ import { BsCalendarDate } from "react-icons/bs";
 
 const QualificationSection = () => {
     return (
-        <section className='container-50 flex' id="qualification">
+        <section className='container-50 height-100vh flex' id="qualification">
             <div className='mb-5' >
                 <div className="mb-5">
                     <h2 className='text-center'>Qualification</h2>
