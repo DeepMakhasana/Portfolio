@@ -1,4 +1,5 @@
 import React from 'react';
+import car from './images/car-lerners.png';
 import param from './images/paramComputer.png';
 import mgs from "./images/mgs.png";
 import smra from "./images/smra.svg";
@@ -13,6 +14,18 @@ const PortfolioSection = () => {
                     <p className='text-center'>Most recent works</p>
                 </div>
                 <div className="projects">
+                    <div className="card mb-3 col-12 col-lg-5">
+                        <img src={car} className="card-img-top" alt="Param Computer Classes" />
+                        <div className="card-body">
+                            <h5 className="card-title">Car Learner's - <small className="text-body-secondary" style={{ color: "#818181" }}>Currently Under development</small></h5>
+                            <p className="card-text">Full solution for who want to learn driving and also for driving school.</p>
+                            <p><b>Technology: </b> HTML, CSS, JS, ReactJS, Next JS, Typescript, NodeJS, ExpressJS, PostgreSQL.</p>
+                            <a href='https://car-learners-frontend.vercel.app/' className='portfolio-btn'>Live site</a>
+                            <a href='https://www.figma.com/file/X0oeoYFLDFftUDQxY2yZIX/car-ui?type=design&node-id=0-1&mode=design&t=AEU7YUGBJGrSFIoC-0' className='portfolio-btn mr-2'>Design</a>
+                            <a href='https://github.com/DeepMakhasana/car-learners-frontend' className='portfolio-btn'>Code</a>
+                            <p className="card-text mt-2"><small className="text-body-secondary" style={{ color: "#818181" }}>Last updated on April 12</small></p>
+                        </div>
+                    </div>
                     <div className="card mb-3 col-12 col-lg-5">
                         <img src={param} className="card-img-top" alt="Param Computer Classes" />
                         <div className="card-body">
