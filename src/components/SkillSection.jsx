@@ -3,14 +3,14 @@ import html from './images/html.svg';
 import css from './images/css.svg';
 import js from './images/js.svg';
 import react from './images/react.svg';
-import bootstrap from './images/bootstrap.svg';
+import tailwindcss from './images/tailwindcss.svg';
 import node from './images/node.svg';
-import php from './images/php.svg';
+import redis from './images/redis.svg';
 import github from './images/github.svg';
 import next from './images/next.svg';
 import express from './images/expressjs.svg';
 import mongodb from './images/mongodb.svg';
-import mysql from './images/mysql.svg';
+import postgresql from './images/postgresql.svg';
 
 const SkillSection = () => {
     return (
@@ -29,17 +29,17 @@ const SkillSection = () => {
                     <div className="col-6 col-md-3 my-4 d-flex flex-column justify-content-center align-items-center">
                         <div className='my-4'><img src={css} alt="CSS" /></div>
                         <div className='my-4'><img src={next} alt="next" /></div>
-                        <div className='my-4'><img src={github} alt="mysql" /></div>
+                        <div className='my-4'><img src={github} alt="github" /></div>
                     </div>
                     <div className="col-6 col-md-3 my-4 d-flex flex-column justify-content-center align-items-center">
                         <div className='my-4'><img src={js} alt="JS" /></div>
                         <div className='my-4'><img src={node} alt="node" /></div>
-                        <div className='my-4'><img src={mysql} alt="mysql" /></div>
+                        <div className='my-4'><img src={postgresql} alt="postgresql" /></div>
                     </div>
                     <div className="col-6 col-md-3 my-4 d-flex flex-column justify-content-center align-items-center">
-                        <div className='my-4'><img src={bootstrap} alt="JS" /></div>
+                        <div className='my-4'><img src={tailwindcss} alt="tailwindcss" /></div>
                         <div className='my-4'><img src={express} alt="express" /></div>
-                        <div className='my-4'><img src={php} alt="php" /></div>
+                        <div className='my-4'><img src={redis} alt="redis" /></div>
                     </div>
                 </div>
             </div>
