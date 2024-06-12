@@ -24,7 +24,7 @@ const ContactSection = () => {
                             <span className='h3 pe-2' style={{ color: "#e84d2e" }}><AiOutlineMail /></span>
                             <h5 style={{ letterSpacing: "2px" }}>E-mail</h5>
                         </div>
-                        <p className='w-100' style={{ letterSpacing: "2px" }}>deepmakhasana1013@gmail.com</p>
+                        <p className='w-100' style={{ letterSpacing: "2px" }}>deepmakhasana.dev@gmail.com</p>
                     </div>
                     <div className='col-12 mb-3'>
                         <div className='d-flex align-items-center'>
