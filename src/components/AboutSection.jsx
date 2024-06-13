@@ -1,6 +1,6 @@
 import React from 'react'
 import pic from './images/about.jpg'
-import download from './Deep_Makhasana.pdf'
+import download from './DeepMakhasana_220203107017.pdf'
 
 const AboutSection = () => {
     return (
