@@ -28,7 +28,7 @@ const heroSection = () => {
                     </div>
                 </div>
                 <div className="col col-md-6 col-lg-6 col-xl-6 hero-section-img">
-                    <img src={photo} alt="Deep Makhasana" />
+                    <img src={photo} style={{ width: "300px", height: "300px" }} alt="Deep Makhasana" />
                 </div>
             </div>
         </section>
