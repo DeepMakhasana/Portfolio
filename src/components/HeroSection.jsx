@@ -1,5 +1,5 @@
 import React from 'react'
-import photo from './images/DeepMakhasana.svg'
+import photo from './images/DeepMakhasana.png'
 
 import { AiFillGithub } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
